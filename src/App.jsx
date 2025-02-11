@@ -15,7 +15,7 @@ import Supplements from "./Pages/Supplement";
 const App = () => {
   return (
     <CartProvider> 
-      <Router>
+      <Router basename="/Alphalete-Fitness">
         <div className="bg-gray-900 min-h-screen text-white">
           <Navbar />
           <Routes>
